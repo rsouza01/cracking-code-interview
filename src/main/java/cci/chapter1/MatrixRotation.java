@@ -12,9 +12,10 @@ public class MatrixRotation {
     private void run() {
 
         int[][] matrix = {
-                {'1', '2', '3'},
-                {'4', '5', '6'},
-                {'7', '8', '9'}
+                { 1,  2,  3,  5},
+                { 5,  6,  7,  8},
+                { 9, 10, 11, 12},
+                {13, 14, 15, 16},
         };
 
         System.out.println("cci.chapter1.MatrixRotation :'" + rotate(matrix) + "'.");
@@ -22,6 +23,19 @@ public class MatrixRotation {
     }
 
     boolean rotate(int[][] matrix) {
+
+        int N = matrix.length;
+
+        System.out.println(N);
+        int[] temp = new int[N];
+
+        for(int layer = 0; layer < N; layer++) {
+
+
+
+
+        }
+
 
         return true;
     }
